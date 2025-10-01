@@ -4,7 +4,7 @@ name: SonarQube Scans
 on:
   pull_request:
   push:
-    branches: [main]
+    branches: [main, main-fork]
 
 jobs:
   scan:
